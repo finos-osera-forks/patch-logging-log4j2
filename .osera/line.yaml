@@ -1,0 +1,34 @@
+# Licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
+line: log4j2-2.24
+bom: org.apache.logging.log4j:log4j-bom
+repository: patch-logging-log4j2
+members:
+  - org.apache.logging.log4j:log4j-bom
+  - org.apache.logging.log4j:log4j-1.2-api
+  - org.apache.logging.log4j:log4j-api
+  - org.apache.logging.log4j:log4j-api-test
+  - org.apache.logging.log4j:log4j-appserver
+  - org.apache.logging.log4j:log4j-cassandra
+  - org.apache.logging.log4j:log4j-core
+  - org.apache.logging.log4j:log4j-core-test
+  - org.apache.logging.log4j:log4j-couchdb
+  - org.apache.logging.log4j:log4j-docker
+  - org.apache.logging.log4j:log4j-iostreams
+  - org.apache.logging.log4j:log4j-jakarta-smtp
+  - org.apache.logging.log4j:log4j-jakarta-web
+  - org.apache.logging.log4j:log4j-jcl
+  - org.apache.logging.log4j:log4j-jpa
+  - org.apache.logging.log4j:log4j-jpl
+  - org.apache.logging.log4j:log4j-jul
+  - org.apache.logging.log4j:log4j-layout-template-json
+  - org.apache.logging.log4j:log4j-mongodb4
+  - org.apache.logging.log4j:log4j-mongodb
+  - org.apache.logging.log4j:log4j-slf4j2-impl
+  - org.apache.logging.log4j:log4j-slf4j-impl
+  - org.apache.logging.log4j:log4j-spring-boot
+  - org.apache.logging.log4j:log4j-spring-cloud-config-client
+  - org.apache.logging.log4j:log4j-taglib
+  - org.apache.logging.log4j:log4j-to-jul
+  - org.apache.logging.log4j:log4j-to-slf4j
+  - org.apache.logging.log4j:log4j-web
+  - org.apache.logging.log4j:log4j
