@@ -1,7 +1,7 @@
 # Licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
 schema: osera-patch-evidence/0.1.0
 producer: moderne
-release: 2.17.2.1-osera-00005
+release: 2.17.2.1-osera-00006
 baseline: v2.17.2+patch.baseline
 fixes:
   - cve: CVE-2026-34480
@@ -37,9 +37,9 @@ fixes:
       - org.apache.logging.log4j:log4j-core
     note: Carried from 2.17.2.1-backpatch-00004; ported onto 2.17.2; fixed at 2.17.2.1-backpatch-00004 (backpatch-logging-log4j2@f0cb714..faa7549).
 tests:
-  commit: 4a4cb3ca9d140059f54d3cee24f8090050a595e7
+  commit: 109f11da85a0591e9c835bb084136cdbce993ebf
   command: none in this repository
   runtime: none, no build or test ran for this release
   report: carried, see the evidence of the release named in the note
   result: pass
-  note: "this release is a tooling update, it carries no new fix, nothing ran here; its test provenance is tooling-2026-11-03-log4j2-2.17: a tooling update of moderne-backpatch-alliance/backpatch-logging-log4j2 at v2.17.2.1-backpatch-00004, whose .backpatch/patch-evidence.yaml says what ran"
+  note: "this release is a tooling update, it carries no new fix, nothing ran here; its test provenance is tooling-2026-11-05-log4j2-2.17: a tooling update of moderne-backpatch-alliance/backpatch-logging-log4j2 at v2.17.2.1-backpatch-00005, whose .backpatch/patch-evidence.yaml says what ran"
